@@ -1,0 +1,34 @@
+.banner {
+  background: #f5f5da;
+  padding: 30px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.banner-title {
+  color: #2d3d29;
+}
+
+.home {
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.content {
+  margin: auto;
+  width: 70%;
+  padding: 10px 0px;
+  background:  #f5f5da;
+  display: inline-block;
+  border-radius: 10px;
+}
+.cat {
+  display: inline-block;
+  width: 45%;
+}
+
+.dog {
+  display: inline-block;
+  width: 45%;
+}
