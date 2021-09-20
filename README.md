@@ -7,6 +7,7 @@ $ git clone git@github.com:robertolima-dev/microfrontend-react.git
 ```
 
 ## Instalação e iniciando o projeto
+### Abra uma janela ou aba no terminal
 ```bash
 $ cd container
 ```
@@ -17,6 +18,7 @@ $ npm install
 $ npm start
 ```
 
+### Abra uma janela ou aba no terminal
 ```bash
 $ cd cat
 ```
@@ -26,7 +28,7 @@ $ npm install
 ```bash
 $ npm start
 ```
-
+### Abra uma janela ou aba no terminal
 ```bash
 $ cd dogs
 ```
@@ -36,7 +38,7 @@ $ npm install
 ```bash
 $ npm start
 ```
-
+### Abra uma janela ou aba no terminal
 ```bash
 $ cd greeting
 ```
@@ -47,7 +49,7 @@ $ npm install
 $ npm start
 ```
 
-## O servidor inciará na porta:3000 - acesse <http:localhost:3000> 
+### O servidor inciará na porta:3000 - acesse <http:localhost:3000> 
 
 
 ## License
