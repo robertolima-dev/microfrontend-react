@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 
 function MicroFrontend({ name, host, history }) {
-  // console.log(name, host, history)
+  console.log(name, host, history)
   useEffect(() => {
     const scriptId = `micro-frontend-script-${name}`;
 
@@ -18,6 +18,7 @@ function MicroFrontend({ name, host, history }) {
     fetch(`${host}/asset-manifest.json`)
       .then((res) => res.json())
       .then((manifest) => {
+        console.log('manifest ===>',manifest)
         const script = document.createElement("script");
         script.id = scriptId;
         script.crossOrigin = "";
